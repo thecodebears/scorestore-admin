@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_links",
+  "info": {
+    "singularName": "nav-link",
+    "pluralName": "nav-links",
+    "displayName": "NavLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -38,11 +38,23 @@
     "Count": {
       "type": "integer"
     },
-    "categories": {
+    "Categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "products"
+      "inversedBy": "Products"
+    },
+    "Tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "Products"
+    },
+    "Cost": {
+      "type": "integer"
+    },
+    "DiscountCost": {
+      "type": "integer"
     }
   }
 }

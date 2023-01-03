@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "tags",
   "info": {
-    "singularName": "category",
-    "pluralName": "categories",
-    "displayName": "Category",
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tag",
     "description": ""
   },
   "options": {
@@ -26,28 +26,14 @@
         "audios"
       ]
     },
-    "Description": {
-      "type": "string"
-    },
-    "Thumbnail": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "Slug": {
-      "type": "string"
-    },
     "Products": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "mappedBy": "Categories"
+      "mappedBy": "Tags"
+    },
+    "Slug": {
+      "type": "string"
     }
   }
 }
