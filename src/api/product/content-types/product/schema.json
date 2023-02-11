@@ -55,6 +55,19 @@
     },
     "DiscountCost": {
       "type": "integer"
+    },
+    "PurchasesCount": {
+      "type": "integer"
+    },
+    "Discount": {
+      "type": "integer",
+      "max": 100,
+      "min": 0
+    },
+    "ParentCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }

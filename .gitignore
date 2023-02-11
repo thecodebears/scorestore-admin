@@ -22,8 +22,6 @@ Icon
 # Windows
 ############################
 
-Thumbs.db
-ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.cab
@@ -67,9 +65,6 @@ $RECYCLE.BIN/
 
 .tmp
 *.log
-*.sql
-*.sqlite
-*.sqlite3
 
 
 ############################
@@ -80,7 +75,6 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
 !public/uploads/.gitkeep
 
 ############################

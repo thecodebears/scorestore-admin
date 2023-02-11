@@ -10,4 +10,5 @@ export default ({ env }) => ({
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
+  
 });
