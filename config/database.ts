@@ -9,6 +9,5 @@ export default ({ env }) => ({
       password: env('DATABASE_PASSWORD', 'strapi'),
       ssl: env.bool('DATABASE_SSL', false),
     },
-  },
-  
+  }
 });
